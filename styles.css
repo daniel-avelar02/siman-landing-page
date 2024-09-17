@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #b2383b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+    font-size: larger;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #b2383b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #81272f;
+}
+
+/* Promociones Section */
+.contenido {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contenido h2,
+.contenido h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contenido-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.promo-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.promo-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.promo-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.promo-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.promo-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #b2383b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.promo-btn:hover {
+    background-color: #81272f;
+}
+
+/* Sección de Suscripción */
+.suscripcion-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.suscripcion-form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.suscripcion-form input,
+.suscripcion-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.suscripcion-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #b2383b;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.suscripcion-btn:hover {
+    background-color: #81272f;
+}
+
+/* Footer */
+footer {
+    background-color: #b2383b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
